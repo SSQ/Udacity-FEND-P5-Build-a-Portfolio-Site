@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SSQ's site</title>
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <div class="sideleft nav">
+      <div>
+      <div class="box box1">
+        <!-- <p>hello</p> -->
+      </div>
+      <h3>#02b3e4</h3>
+    </div>
+    <div>
+      <div class=" box box2">
+        <!-- <p>hello</p> -->
+      </div>
+      <h3>#2d3c49</h3>
+    </div>
+        <div>
+      <div class="box box3">
+        <!-- <p>hello</p> -->
+      </div>
+      <h3>#7d97ad</h3>
+    </div>
+    </div>
+    <!-- main -->
+    <div class="container">
+      <!-- header -->
+      <header class="header">
+        <!-- <div class="row"> -->
+          <div class="col-6 text-left">
+            <img class="title-logo" src="http://placekitten.com/100/100">
+          </div>
+          <div class="col-6 text-right text-uppercase">
+            <h1 class="title-super text-thin display-h1">Shengqi Shen<a id="menu1">☰</a></h1>
+            <h1 class="title-super text-thin display-h2">Caden<a id="menu2">☰</a></h1>
+            <h4 class="display-h4">Front-End Freshman</h4>
+          </div>
+        <!-- </div> -->
+      </header>
+
+      <!-- hr -->
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <!-- cover -->
+      <div class="row">
+        <div class="col-md-12">
+          <img src="http://placekitten.com/900/500" id="the-cover" alt="kitten">
+        </div>
+      </div>
+
+      <!-- description -->
+      <div class="row text-left">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+
+      <!-- images -->
+      <div class="row text-center flex-block">
+        <article class="col-4">
+          <img src="http://placekitten.com/300/200" alt="kitten" data-toggle="modal" data-target="#project1">
+          <h2 class="text-uppercase">name1</h2>
+          <p><a href="http://placekitten.com/300/200">http://placekitten.com/300/200</a></p>
+        </article>
+        <article class="col-4">
+          <img src="http://placekitten.com/300/200" alt="kitten" data-toggle="modal" data-target="#project2">
+          <h2 class="text-uppercase">name2</h2>
+          <p><a href="http://placekitten.com/300/200">http://placekitten.com/300/200</a></p>
+        </article>
+        <article class="col-4">
+          <img src="http://placekitten.com/300/200" alt="kitten" data-toggle="modal" data-target="#project3">
+          <h2 class="text-uppercase">name3</h2>
+          <p><a href="http://placekitten.com/300/200">http://placekitten.com/300/200</a></p>
+        </article>
+      </div>
+
+      <!-- footer -->
+      <footer>
+
+      </footer>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel1">name1</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="center-img" src="http://placekitten.com/300/200" alt="kitten">
+                  Desciption1.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel2">name2</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="center-img" src="http://placekitten.com/300/200" alt="kitten">
+                  Desciption2.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel3">name3</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="center-img" src="http://placekitten.com/300/200" alt="kitten">
+                  Desciption3.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<script>
+  var menu1 = document.querySelector('#menu1');
+  var menu2 = document.querySelector('#menu2');
+  var main = document.querySelector('.main');
+  var drawer = document.querySelector('.nav');
+
+  menu1.addEventListener('click', function(e) {
+    drawer.classList.toggle('open');
+    e.stopPropagation();
+  });
+  menu2.addEventListener('click', function(e) {
+    drawer.classList.toggle('open');
+    e.stopPropagation();
+  });
+  main.addEventListener('click', function() {
+    drawer.classList.remove('open');
+  });
+  </script>
+  </body>
+</html>

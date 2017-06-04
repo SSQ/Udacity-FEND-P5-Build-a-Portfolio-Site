@@ -1,0 +1,1 @@
+If you want to make the webpage more variable, you can add "srcset" attribute to img tag.
